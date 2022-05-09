@@ -1,0 +1,35 @@
+* {
+  /*Reset do navegador para estilização*/
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.6rem;
+
+  /*Font mais utilizada no site*/
+  font-family: 'Inter', sans-serif;
+}
+
+img {
+  /*Responsividade de imagens*/
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  /* 
+    Padrão para setar a font em 10px, mantendo um padrão de 10% de estilização 
+    Com essa config:
+      1rem - 10px;
+    Padrão do navegador 16px;
+      1.6rem = 16px;  
+  */
+  font-size: 62.5%;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
+}
